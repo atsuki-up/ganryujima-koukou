@@ -1,0 +1,228 @@
+@charaset "UTF-8"
+
+html {
+    font-size: 100%;
+  }
+  
+  body {
+    color: #24292e;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  #header {
+    max-width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0 4%;
+    
+    background-color:#004aad;
+  }
+
+  #header .header-main {
+    display: flex;
+    text-align: center;
+  }
+
+ 
+
+  #header h1 {
+    width: 60px;
+   
+
+  }
+
+  #header p {
+    font-weight: bold;
+    font-size: 30px;
+    
+  }
+  
+  #header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px 0;
+  }
+  
+  #header li {
+    font-size: 1.7rem;
+    
+    margin-left: 30px;
+    
+  }
+
+  #header li a {
+    color: black;
+  }
+
+  #mainvisual img {
+     width: 100%;
+     max-width: 1920px;
+     height: 370px;
+     object-fit: cover;
+  }
+
+  #maintopic {
+    margin-bottom: 100px;
+  }
+
+ 
+
+  #maintopic h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #maintopic ul {
+    display: flex;
+  }
+
+  #maintopic img {
+    width: 500px;
+    margin-left: auto;
+    height: 370px;
+    object-fit: cover;
+  }
+
+ 
+
+.secondtopic h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondtopic ul {
+    display: flex;
+}
+
+
+  .secondtopic li {
+    width: 500px;
+    margin-left: auto;
+    height: 370px;
+    object-fit: cover;
+  }
+ 
+  #footer {
+     height: 150px;
+     background-color: #004aad;
+     display: flex;
+     justify-content: center;
+
+  }
+
+  #footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+  
+  #footer li {
+    font-size: 1.7rem;
+    
+    margin-left: 30px;
+    
+  }
+
+  #footer li a {
+    color: black;
+  }
+
+  @media (max-width:800px){
+    #header ul{
+      display: block;
+      text-align: center;
+    }
+    #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #004aad;
+      height: 90px;
+      z-index: 10;
+      box-shadow: 0 3px 6px rgba(red, green, blue, alpha);
+    }
+
+    #header p {
+      font-weight: bold;
+      font-size: 30px;
+      
+    }
+
+    
+
+   
+
+    .toggle-menu-buttom {
+      display: block;
+      width: 90px;
+      height: 60px;
+     background-image: url(/morimo-img/menu-icon.jpeg);
+      background-size: 50%;
+      background-position:right;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      outline: none;
+      display: flex;
+      margin-left: auto;
+      margin-top: 10px;
+      
+    }
+
+    .header-site-menu {
+      position: absolute;
+      display: none;
+    }
+    .header-site-menu .is-show {
+      display: block;
+    }
+
+    #maintopic {
+      margin-bottom: 100px;
+    }
+
+    #maintopic ul {
+      display: grid;
+    }
+
+    #maintopic img {
+      margin-left: auto;
+      object-fit: contain;
+    }
+
+    .secondtopic ul {
+      display: grid;
+      margin-top: 0;
+    }
+
+    .secondtopic li {
+      margin-left: auto;
+      margin-right: auto;
+     width: 75%;
+      object-fit: cover;
+    }
+
+    #footer {
+       display: none;
+    }
+
+  }
