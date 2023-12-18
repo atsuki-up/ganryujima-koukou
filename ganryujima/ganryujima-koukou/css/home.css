@@ -1,4 +1,4 @@
-@charaset "UTF-8"
+@charaset "UTF-8";
 
 html {
     font-size: 100%;
@@ -34,9 +34,9 @@ html {
     text-align: center;
   }
 
-#header .toggle-menu-buttom {
+ .toggle-menu-buttom {
   display: none;
-}
+ }
 
   #header h1 {
     width: 60px;
