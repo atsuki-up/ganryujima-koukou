@@ -34,7 +34,9 @@ html {
     text-align: center;
   }
 
- 
+#header .toggle-menu-buttom {
+  display: none;
+}
 
   #header h1 {
     width: 60px;
