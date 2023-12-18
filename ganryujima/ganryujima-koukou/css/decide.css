@@ -69,6 +69,12 @@ html {
     color: black;
   }
 
+  #maintopic h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 
 
   @media (max-width:800px){
