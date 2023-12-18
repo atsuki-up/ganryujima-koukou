@@ -94,6 +94,30 @@ html {
     object-fit: cover;
   }
 
+  #footer {
+    height: 150px;
+    background-color: #004aad;
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+}
+
+#footer li {
+    font-size: 1.7rem;
+    margin-left: 30px;
+}
+
+#footer li a{
+    color: black;
+}
+
 
 
   @media (max-width:800px){
