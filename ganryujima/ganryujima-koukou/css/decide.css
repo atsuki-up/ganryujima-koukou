@@ -92,16 +92,7 @@ html {
     object-fit: cover;
   }
 
-  #main h2 img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 500px;
-    width: 1000px;
-    object-fit: fill;
-}
+ 
 
 
   #footer {
