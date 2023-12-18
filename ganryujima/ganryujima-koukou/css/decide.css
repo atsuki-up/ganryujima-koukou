@@ -26,11 +26,12 @@ html {
     margin: 0 auto;
     padding: 0 4%;
     background-color:#6d032e;
+    display: flex;
   }
 
   #header .header-main {
     display: flex;
-    text-align: center;
+    
   }
 
  .toggle-menu-buttom {
@@ -51,10 +52,8 @@ html {
   
   #header ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-
     padding: 10px 0;
+    margin-left: 250px;
   }
   
   #header li {
@@ -135,6 +134,8 @@ html {
       height: 90px;
       z-index: 10;
       box-shadow: 0 3px 6px rgba(red, green, blue, alpha);
+      display: flex;
+      flex-direction: column;
     }
 
     #header p {
