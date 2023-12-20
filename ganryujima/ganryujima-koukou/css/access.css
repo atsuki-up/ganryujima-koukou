@@ -71,7 +71,7 @@ html {
 
 
 
-  @media (max-width:800px){
+  @media (max-width:830px){
     #header ul{
       display: block;
       text-align: center;
@@ -81,7 +81,7 @@ html {
       top: 0;
       left: 0;
       right: 0;
-      background-color:#6d032e;
+      background-color:#004aad;
       height: 90px;
       z-index: 10;
       box-shadow: 0 3px 6px rgba(red, green, blue, alpha);

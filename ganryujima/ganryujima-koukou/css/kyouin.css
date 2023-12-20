@@ -78,6 +78,31 @@ html {
     max-width: 300px;
   }
 
+  #footer {
+    height: 100px;
+    background-color: #004aad;
+    display: flex;
+    justify-content: center;
+  }
+
+  #footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  #footer li {
+    font-size: 1.0;
+    margin-left: 30px;
+
+  }
+
+  #footer li a {
+    color: black;
+  }
+
 
 
   @media (max-width:830px){
