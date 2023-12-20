@@ -70,17 +70,16 @@ html {
   }
 
   .section-title {
-    display: flex;
+    display: grid;
   }
 
   .section-title h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
 }
 .section-title p {
-    font-size: 14px;
-    margin-top: 15px;
+    font-size: 15px;
+    margin-top: 5px;
 }
 
 
