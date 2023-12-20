@@ -60,14 +60,28 @@ html {
   }
   
   #header li {
-    font-size: 1.7rem;
-    margin-left: 30px;
+    font-size: 1.0rem;
+    margin-left: 15px;
     
   }
 
   #header li a {
     color: black;
   }
+
+  .section-title {
+    display: flex;
+  }
+
+  .section-title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.section-title p {
+    font-size: 14px;
+    margin-top: 15px;
+}
 
 
 
@@ -87,6 +101,7 @@ html {
       box-shadow: 0 3px 6px rgba(red, green, blue, alpha);
       display: flex;
       flex-direction: column;
+      
     }
 
     #header p {
