@@ -138,7 +138,7 @@ html {
       position: absolute;
       display: none;
     }
-    .header-site-menu .is-show {
+    .header-site-menu.is-show {
       display: block;
     }
 
