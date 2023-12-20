@@ -83,6 +83,32 @@ html {
 }
 
 
+.map iframe {
+  height: 500px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondtopic{
+  width: 930px;
+  max-width: 90%;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.form-area {
+  background-color: yellow;
+  border: 1px solid #aaaaaa;
+  margin-top: 25px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+
 
   @media (max-width:830px){
     #header ul{
@@ -108,7 +134,10 @@ html {
       font-size: 30px;
       
     }
-
+    
+    #main {
+      margin-top: 100px;
+    }
     
     
    
