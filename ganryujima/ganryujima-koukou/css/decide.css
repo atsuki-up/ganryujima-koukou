@@ -93,6 +93,15 @@ html {
     height: 550px;
     object-fit: cover;
   }
+  
+  #maintopic ul p {
+    font-weight: bold;
+    color: black;
+    background-color: rgba(54, 181, 124, 0.5);
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
  
 
