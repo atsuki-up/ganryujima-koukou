@@ -106,6 +106,7 @@ html {
   padding: 30px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 
@@ -179,12 +180,27 @@ html {
 
     .header-site-menu {
       position: absolute;
-      display: none;
+      top: 100%;
+      left: 0;
+      right: 0;
+      color: black;
+      background-color: #736E62;
+      height: 150px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      display:none;
     }
     .header-site-menu.is-show {
       display: block;
     }
 
+    .header-site-menu ul {
+      display: grid;
+    }
+
+    .header-site-menu ul li {
+      color: black;
+    }
     #footer {
         display: none;
     }
