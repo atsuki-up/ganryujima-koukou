@@ -82,6 +82,10 @@ html {
     width: 150px;
 }
 
+#maintopic ul {
+  display: flex;
+}
+
 
   #maintopic ul img {
     width: 500px;
