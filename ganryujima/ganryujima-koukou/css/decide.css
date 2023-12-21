@@ -201,6 +201,12 @@ html {
         margin-right: auto;
     }
 
+    #maintopic ul p {
+      width: 95%;
+      margin-right: auto;
+      margin-left: auto;
+    } 
+
     .header-site-menu {
       position: absolute;
       top: 100%;
