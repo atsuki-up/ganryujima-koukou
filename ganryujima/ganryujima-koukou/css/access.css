@@ -127,8 +127,14 @@ html {
       box-shadow: 0 3px 6px rgba(red, green, blue, alpha);
       display: flex;
       flex-direction: column;
-      
-    }
+     }
+
+     .header-main{
+      padding-left: 20px;
+      padding-right: 20px;
+      height: 100%;
+  
+  }
 
     #header p {
       font-weight: bold;
@@ -183,24 +189,29 @@ html {
       top: 100%;
       left: 0;
       right: 0;
-      color: black;
-      background-color: #736E62;
-      height: 150px;
-      padding-top: 30px;
-      padding-bottom: 50px;
-      display:none;
+      background-color: #c455b1;
+      padding-top: 0%;
+      padding-bottom: 100px;
+      
     }
     .header-site-menu.is-show {
       display: block;
+      height: 100%;
+     
     }
 
     .header-site-menu ul {
-      display: grid;
+      padding-left: 20px;
     }
 
     .header-site-menu ul li {
-      color: black;
+      font-weight: bold;
+      text-align: center;
+      
+      
     }
+
+  
     #footer {
         display: none;
     }

@@ -198,9 +198,17 @@ html {
 
     .header-site-menu {
       position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      color: black;
+      background-color: #736E62;
+      height: 150px;
+      padding-top: 30px;
+      padding-bottom: 50px;
       display: none;
     }
-    .header-site-menu .is-show {
+    .header-site-menu.is-show {
       display: block;
     }
 
