@@ -99,8 +99,19 @@ html {
     color: black;
     background-color: rgba(54, 181, 124, 0.5);
     width: 600px;
-    margin-left: auto;
+    margin-left: 50px;
     margin-right: auto;
+  }
+  
+  #schedyle{
+    background-color: #522235;
+    width: 45%;
+    margin: 100px auto 50px auto;
+  }
+  #schedyle ul {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
   }
 
  
@@ -179,7 +190,7 @@ html {
     }
 
     #main {
-      margin-top: 100px;
+      margin-top: 90px;
     }
 
     #maintopic h1 {
@@ -206,6 +217,17 @@ html {
       margin-right: auto;
       margin-left: auto;
     } 
+
+    #schedyle{
+      background-color: #522235;
+      width: 80%;
+      margin: 100px auto 50px auto;
+    }
+    #schedyle ul {
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+    }
 
     .header-site-menu {
       position: absolute;
