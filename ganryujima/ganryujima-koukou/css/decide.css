@@ -178,6 +178,10 @@ html {
       
     }
 
+    #main {
+      margin-top: 100px;
+    }
+
     #maintopic h1 {
         display: flex;
         justify-content: center;
@@ -186,15 +190,26 @@ html {
         width: 150px;
     }
 
+    #maintopic ul {
+      display: grid;
+    }
     #maintopic ul img{
-        height: 250px;
-        margin-top: 100px;
+        height: 270px;
+        width: 70%;
+        margin-top: auto;
         margin-left: auto;
         margin-right: auto;
     }
 
     .header-site-menu {
       position: absolute;
+      top: 100%;
+     left: 0;
+     right: 0;
+     color: #fff;
+     background-color: #736E62;
+     padding-top: 30px;
+     padding-bottom: 50px;
       display: none;
     }
     .header-site-menu .is-show {
