@@ -100,15 +100,29 @@ html {
 
 
 .form-area {
-  background-color: yellow;
+  background-image: url(/ganryujima/morimo-img/wani-cat.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   border: 1px solid #aaaaaa;
+  height: 300px;
   margin-top: 25px;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.form-area dt {
+  font-weight: bold;
+  color: black;
+  width: 200px;
+  
+}
 
+.form-area dd {
+ 
+  
+  
+}
 .submit-button {
   display: flex;
   justify-content: space-between;
@@ -118,6 +132,33 @@ html {
   display: inline-block;
   min-width: 60px;
   height: 40px;
+}
+
+#footer {
+  height: 150px;
+  background-color: #004aad;
+  display: flex;
+  justify-content: center;
+
+}
+
+#footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+#footer li {
+  font-size: 1.7rem;
+  
+  margin-left: 30px;
+  
+}
+
+#footer li a {
+  color: black;
 }
 
 
