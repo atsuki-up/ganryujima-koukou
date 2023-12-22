@@ -150,7 +150,7 @@ html {
     color: black;
   }
 
-  @media (max-width:800px){
+  @media (max-width:830px){
     #header ul{
       display: block;
       text-align: center;
@@ -201,15 +201,26 @@ html {
       top: 100%;
       left: 0;
       right: 0;
-      color: black;
-      background-color: #736E62;
-      height: 150px;
+      background-color: #ffd700;
       padding-top: 30px;
       padding-bottom: 50px;
       display: none;
     }
     .header-site-menu.is-show {
       display: block;
+    }
+
+    .site-menu ul {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 2.3;
+    }
+
+    .site-menu ul li{
+      font-weight: bold;
+
+      
     }
 
     #maintopic {

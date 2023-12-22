@@ -202,10 +202,10 @@ html {
      
 
     .site-menu ul {
-      display: block;
-      align-items: center;
-      justify-content: center;
-      line-height: 3.0;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 2.3;
     }
    
 
