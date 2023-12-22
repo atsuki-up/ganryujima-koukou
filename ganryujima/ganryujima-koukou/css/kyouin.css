@@ -153,6 +153,32 @@ html {
       
     }
 
+    .header-site-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #ffd700;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      display: none;
+    }
+
+    .header-site-menu.is-show {
+      display: block;
+    }
+
+    .site-menu ul {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 2.3;
+    }
+
+    .site-menu ul li{
+      font-weight: bold;
+}
+
     #maintopic h1 {
         display: flex;
         justify-content: center;
@@ -166,14 +192,6 @@ html {
         margin-top: 100px;
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .header-site-menu {
-      position: absolute;
-      display: none;
-    }
-    .header-site-menu .is-show {
-      display: block;
     }
 
     .kyouin-list {
