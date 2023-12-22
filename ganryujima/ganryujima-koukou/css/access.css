@@ -25,7 +25,8 @@ html {
     height: 100px;
     margin: 0 auto;
     padding: 0 4%;
-    background-color:#004aad;
+    background-image: url(/ganryujima/morimo-img/wani-cat.jpg);
+    background-size: cover;
     display: flex;
   
     
@@ -68,6 +69,10 @@ html {
   #header li a {
     color: white;
   }
+
+ #main {
+  background-color: aquamarine;
+ }
 
   .section-title {
     display: grid;
@@ -118,11 +123,7 @@ html {
   
 }
 
-.form-area dd {
- 
-  
-  
-}
+
 .submit-button {
   display: flex;
   justify-content: space-between;

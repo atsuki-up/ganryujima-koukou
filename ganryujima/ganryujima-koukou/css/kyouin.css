@@ -36,6 +36,10 @@ html {
     
   }
 
+  #header.header-main p {
+    color: aliceblue;
+  }
+
  .toggle-menu-buttom {
   display: none;
  }
@@ -68,6 +72,16 @@ html {
   #header li a {
     color: black;
   }
+
+  #main {
+    background-image: url(/ganryujima/morimo-img/floor-1256804_1280.jpg);
+    max-width: 100%;
+    background-attachment: fixed;
+    margin-top: 0;
+    display: grid;
+  }
+
+  
 
   .kyouin-list {
     display: grid;
@@ -129,6 +143,11 @@ html {
       font-size: 30px;
       
     }
+   
+    #main {
+      margin-top: 90px;
+    }
+
 
     
     
