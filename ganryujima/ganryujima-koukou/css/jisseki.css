@@ -25,9 +25,9 @@ html {
     height: 100px;
     margin: 0 auto;
     padding: 0 4%;
-    background-color:#004aad;
+    background-image: url(/ganryujima/morimo-img/チャイナタウン.jpg);
+    background-position: 50% 100%;
     display: flex;
-  
     
   }
 
@@ -66,11 +66,27 @@ html {
   }
 
   #header li a {
-    color: black;
+    color: white;
+  }
+  
+  #main {
+    background-image: url(/ganryujima/morimo-img/bakuhatu-manekin.jpg);
+    background-position: 0% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   #maintopic {
     margin-bottom: 50px;
+  }
+
+  #main li {
+    color: antiquewhite;
+
+  }
+
+  #main p {
+    color: antiquewhite;
   }
 
   #footer {
@@ -148,6 +164,40 @@ html {
       
     }
 
+    .header-site-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #ffd700;
+      padding-top: 30px;
+      padding-bottom: 50px;
+      display: none;
+    }
+
+    .header-site-menu.is-show {
+      display: block;
+    }
+
+    .site-menu ul {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 2.3;
+    }
+
+    .site-menu ul li{
+      font-weight: bold;
+
+      
+    }
+
+    #main {
+      margin-top: 90px;
+    }
+
+
+
     #maintopic h1 {
         display: flex;
         justify-content: center;
@@ -163,13 +213,6 @@ html {
         margin-right: auto;
     }
 
-    .header-site-menu {
-      position: absolute;
-      display: none;
-    }
-    .header-site-menu .is-show {
-      display: block;
-    }
 
     #footer {
         display: none;

@@ -76,6 +76,7 @@ html {
 
   .kyouin-list li img {
     max-width: 300px;
+    margin-left: 30px;
   }
 
   #footer {
@@ -94,7 +95,7 @@ html {
   }
 
   #footer li {
-    font-size: 1.0;
+    font-size: 1.7;
     margin-left: 30px;
 
   }

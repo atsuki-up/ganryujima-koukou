@@ -25,7 +25,7 @@ html {
     height: 120px;
     margin: 0 auto;
     padding: 0 4%;
-    background-color:#6d032e;
+    background-image: url(/ganryujima/morimo-img/cabin-4792470_1280.jpg);
     display: flex;
   }
 
@@ -63,7 +63,7 @@ html {
   }
 
   #header li a {
-    color: black;
+    color: white;
   }
 
   #main {
